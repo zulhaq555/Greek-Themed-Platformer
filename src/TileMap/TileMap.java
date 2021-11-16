@@ -75,7 +75,7 @@ public class TileMap {
             width = numCols * tileSize;
             height = numRows * tileSize;
 
-            String delims = " ";
+            String delims = "\\s";
 
             for (int row = 0; row < numRows; row++) {
                 String line = br.readLine();
